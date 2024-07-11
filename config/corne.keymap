@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans       &trans         &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &trans         &trans     &trans  &trans  &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans       &trans         &trans     &trans  &trans  &trans  &trans
-                                &trans          &trans           &kp SPACE    &kp BACKSPACE  &kp ENTER  &trans
+&trans  &kp EXCLAMATION  &kp AT  &kp HASH  &kp PERCENT  &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans           &trans  &trans    &trans       &trans       &trans         &trans        &trans                &trans                 &trans  &trans
+&trans  &trans           &trans  &trans    &trans       &trans       &trans         &trans        &trans                &trans                 &trans  &trans
+                                 &trans    &trans       &kp SPACE    &kp BACKSPACE  &kp ENTER     &trans
             >;
         };
 
@@ -49,10 +49,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &trans         &kp N7        &kp N8        &kp N9        &kp N0          &trans
-&kp LCTRL  &trans    &trans  &trans    &trans    &trans       &trans         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&kp LSHFT  &trans    &trans  &trans    &trans    &trans       &trans         &kp N1        &kp NUMBER_2  &kp NUMBER_3  &trans          &trans
-                             &kp LGUI  &trans    &kp SPACE    &kp BACKSPACE  &kp ENTER     &tog 2
+&kp TAB    &trans  &trans  &trans    &trans  &trans       &kp LEFT_PARENTHESIS   &kp N7        &kp N8        &kp N9        &kp PLUS   &kp MINUS
+&kp LCTRL  &trans  &trans  &trans    &trans  &trans       &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTRK  &kp KP_DIVIDE
+&kp LSHFT  &trans  &trans  &trans    &trans  &trans       &kp NUMBER_0           &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp CARET  &trans
+                           &kp LGUI  &trans  &kp SPACE    &kp BACKSPACE          &kp ENTER     &tog 2
             >;
         };
 
