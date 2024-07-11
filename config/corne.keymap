@@ -35,7 +35,7 @@
 
             bindings = <
 &kp LEFT_BRACKET   &kp EXCLAMATION  &kp AT    &kp HASH      &kp PERCENT  &kp CARET    &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&kp RIGHT_BRACKET  &kp BACKSLASH    &trans    &kp UP_ARROW  &trans       &trans       &trans         &trans        &trans                &trans                 &trans  &trans
+&kp RIGHT_BRACKET  &kp BACKSLASH    &trans    &kp UP_ARROW  &trans       &kp UNDER    &trans         &trans        &trans                &trans                 &trans  &trans
 &kp LEFT_CONTROL   &trans           &kp LEFT  &kp DOWN      &kp RIGHT    &trans       &trans         &trans        &trans                &trans                 &trans  &trans
                                               &kp DELETE    &trans       &kp SPACE    &kp BACKSPACE  &kp ENTER     &trans
             >;
@@ -51,7 +51,7 @@
             bindings = <
 &kp TAB    &trans  &trans  &trans  &trans  &trans       &kp LEFT_PARENTHESIS   &kp N7        &kp N8        &kp N9        &kp PLUS   &kp MINUS
 &kp LCTRL  &trans  &trans  &trans  &trans  &trans       &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTRK  &kp KP_DIVIDE
-&kp LSHFT  &trans  &trans  &trans  &trans  &trans       &kp NUMBER_0           &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp CARET  &trans
+&kp LSHFT  &trans  &trans  &trans  &trans  &trans       &kp NUMBER_0           &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp CARET  &kp KP_EQUAL
                            &trans  &trans  &kp SPACE    &kp BACKSPACE          &kp ENTER     &tog 2
             >;
         };
