@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &kp UP_ARROW    &trans           &trans       &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
-&kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &kp DOLLAR     &kp PERCENT   &kp CARET             &trans                 &trans  &trans
-&kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp AT          &kp HASH         &kp UNDER    &trans         &trans        &trans                &trans                 &trans  &trans
-                                                              &kp DELETE      &trans           &kp SPACE    &kp BACKSPACE  &kp ENTER     &trans
+&kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans           &kp UP_ARROW    &trans           &trans       &kp F12        &kp F7     &kp F8  &kp F9  &trans         &trans
+&kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans       &kp F11        &kp F4     &kp F5  &kp F6  &trans         &kp DOLLAR
+&kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp EXCLAMATION  &kp AT          &kp HASH         &kp UNDER    &kp F10        &kp F1     &kp F2  &kp F3  &kp AMPERSAND  &kp PERCENT
+                                                              &kp DELETE      &trans           &kp SPACE    &kp BACKSPACE  &kp ENTER  &trans
             >;
         };
 
