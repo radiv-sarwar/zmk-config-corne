@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
 / {
@@ -63,10 +64,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &trans  &trans  &trans  &kp LESS_THAN  &kp GREATER_THAN    &trans         &kp N7        &kp N8        &kp N9        &kp PLUS    &kp MINUS
-&kp LCTRL  &trans  &trans  &trans  &trans         &kp CARET           &trans         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTRK   &kp KP_DIVIDE
-&kp LSHFT  &trans  &trans  &trans  &trans         &trans              &kp NUMBER_0   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
-                           &trans  &trans         &kp SPACE           &kp BACKSPACE  &kp ENTER     &tog 2
+&bt BT_CLR_ALL  &trans  &trans  &trans  &kp LESS_THAN  &kp GREATER_THAN    &trans         &kp N7        &kp N8        &kp N9        &kp PLUS    &kp MINUS
+&trans          &trans  &trans  &trans  &trans         &kp CARET           &trans         &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp ASTRK   &kp KP_DIVIDE
+&trans          &trans  &trans  &trans  &trans         &trans              &kp NUMBER_0   &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD  &kp EQUAL
+                                &trans  &trans         &kp SPACE           &kp BACKSPACE  &kp ENTER     &tog 2
             >;
         };
     };
