@@ -20,6 +20,8 @@
             quick-tap-ms = <300>;
             require-prior-idle-ms = <300>;
             flavor = "tap-preferred";
+            hold-while-undecided;
+            hold-while-undecided-linger;
         };
     };
 
@@ -49,7 +51,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none   &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp EQUAL    &kp BACKSLASH
+&kp F2  &kp EXCL  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS  &kp EQUAL    &kp BACKSLASH
 &none   &trans    &trans       &trans    &trans      &kp CARET      &kp AMPERSAND  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER  &kp PLUS     &none
 &trans  &none     &kp LEFT     &kp UP    &kp DOWN    &kp RIGHT      &none          &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &none      &kp PAGE_UP  &kp PAGE_DOWN
                                &trans    &trans      &kp SPACE      &kp BACKSPACE  &kp ENTER             &tog 2
